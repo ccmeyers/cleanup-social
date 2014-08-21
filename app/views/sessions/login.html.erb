@@ -1,0 +1,5 @@
+<%#= link_to 'login with facebook', Koala::Facebook::OAuth.new.url_for_oauth_code(:callback => '/auth/facebook/callback') %>
+
+<%#= link_to 'Login', Koala::Facebook::OAuth.new.url_for_oauth_code(:callback => oauth_redirect_url) %>
+
+<%= link_to("login with facebook", "/auth/facebook" )%>
